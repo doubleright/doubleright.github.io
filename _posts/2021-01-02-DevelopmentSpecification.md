@@ -1,5 +1,5 @@
 ---
-title: DotNet开发规范
+title: DevelopmentSpecification
 tags: TeXt
 ---
 
