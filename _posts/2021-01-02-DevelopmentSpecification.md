@@ -1,5 +1,5 @@
 ---
-title: DevelopmentSpecification
+title: Development Specification
 tags: TeXt
 ---
 

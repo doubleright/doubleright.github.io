@@ -1,9 +1,9 @@
 ---
-title: Database specification
+title: Database Specification
 tags: TeXt
 ---
 
-# MYSQL数据库规范
+# MySQL数据库规范
 
 ## (一) 建表规范
 
@@ -180,9 +180,9 @@ SELECT CHARACTER_LENGTH("..")； 返回为 4
 
 
 
-# mongodb数据库规范
+# MongoDB数据库规范
 
-## （一）mongoDB库的设计
+## （一）MongoDB库的设计
 
 mongodb数据库命名规范 例如:公司名_模块名 FlytExpress_xxxx
 
@@ -192,9 +192,9 @@ mongodb数据库命名规范 例如:公司名_模块名 FlytExpress_xxxx
 
 ### c.数据库名最多为 64字符
 
-## （二）mongoDB集合的设计
+## （二）MongoDB集合的设计
 
-### a.mongodb集合命名规范：模块名_业务名 rps_order
+### a.MongoDB集合命名规范：模块名_业务名 rps_order
 
 ### b.集合名全部小写
 
@@ -204,7 +204,7 @@ mongodb数据库命名规范 例如:公司名_模块名 FlytExpress_xxxx
 
 ### e.集合名称最多为 64字符
 
-## （三）mongoDB文档的设计
+## （三）MongoDB文档的设计
 
 ### a.文档中的 key 禁止使用任何 " _ "（下划线）以外的特殊字符
 
@@ -214,7 +214,7 @@ mongodb数据库命名规范 例如:公司名_模块名 FlytExpress_xxxx
 
 ### e.尽量存放统一了大小写后的数据
 
-## （四）mongoDB索引的设计
+## （四）MongoDB索引的设计
 
 ### a.优先使用覆盖索引
 
