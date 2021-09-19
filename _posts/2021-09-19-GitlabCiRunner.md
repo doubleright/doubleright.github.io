@@ -82,12 +82,12 @@ check_interval = 0
 
 刚才说了要Run 毕竟一直开着cmd也不太好；用vbs挂一个不显示的cmd
 
-```cmd
+```
 @echo off
 mode con lines=30 cols=60
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",0)(window.close)&&exit
 cd /d "%~dp0"
-gitlab-runner.exe
+gitlab-runner.exe run
 ```
 
 
