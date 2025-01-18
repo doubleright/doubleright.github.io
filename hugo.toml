@@ -1,6 +1,6 @@
-baseURL = 'https://rayreal.sk/'
-languageCode = 'zh-cn'
-title = "Ray's low level coder"
+#baseURL = ''
+languageCode = 'en-us'
+title = "Ray's log"
 theme = 'hugo-theme-stack'
 
 [permalinks.page]
@@ -41,8 +41,7 @@ enabled = false
 #enabled = false
 
 [params.sidebar]
-subtitle = "Things about C#, .NET"
-
+subtitle = "Sharp tools make good work."
 
 [[menu.social]]
 identifier = "github"
