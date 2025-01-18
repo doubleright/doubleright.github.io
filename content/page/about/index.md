@@ -10,6 +10,6 @@ menu:
             icon: user
 ---
 
-<div>
-    <a href="http://42.193.239.83/"><b>IPC</b></a>
-</div>
+## 相关链接
+
+- IPC授权: [license](http://42.193.239.83/license)
