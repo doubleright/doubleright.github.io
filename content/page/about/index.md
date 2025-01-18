@@ -10,4 +10,6 @@ menu:
             icon: user
 ---
 
-I'm Ray
+<div>
+    <a href="http://42.193.239.83/"><b>IPC</b></a>
+</div>
