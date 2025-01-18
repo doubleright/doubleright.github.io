@@ -1,15 +1,19 @@
 ---
-title: About
-date: '2019-02-28'
-aliases:
-  - contact
+title: Links
+
 menu:
     main: 
         weight: -90
         params:
-            icon: user
+            icon: link    
+
+comments: false
 ---
 
-## 相关链接
-
-- IPC授权: [license](http://42.193.239.83/license)
+```yaml
+links:
+  - title: IPC授权
+    description: IPC授权文件下载 
+    website: http://42.193.239.83/license
+    image: http://42.193.239.83/mywechat.jpg
+```
