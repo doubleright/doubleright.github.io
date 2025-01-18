@@ -56,19 +56,6 @@ jobs:
         with:
           path: ./public
 
-      # 新增步骤：将构建好的站点打包为 zip 文件
-      - name: Zip built site
-        run: |
-          zip -r site.zip ./public
-      # 新增步骤：上传到 Releases
-      - name: Upload to Releases
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./site.zip
-          asset_name: site.zip
-          asset_content_type: application/zip
-
   deploy:
     environment:
       name: github-pages
