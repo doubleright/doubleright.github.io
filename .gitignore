@@ -2,3 +2,6 @@ syntax: glob
 
 .hugo_build.lock
 resources/_gen/
+
+
+*.vscode/
