@@ -51,9 +51,11 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifact for Pages
+        id: deployment
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./public
 
   deploy:
@@ -61,8 +63,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
     needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
