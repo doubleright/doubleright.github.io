@@ -1,0 +1,57 @@
+#baseURL = ''
+languageCode = 'en-us'
+title = "Ray's log"
+theme = 'hugo-theme-stack'
+
+[permalinks.page]
+post = '/blog/:year/:month/:day/:slug/'
+page = ':slug'
+
+[[params.widgets.page]]
+type = "archives"
+
+[params.widgets.page.params]
+limit = 5
+
+[[params.widgets.page]]
+type = "tag-cloud"
+
+[params.widgets.page.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[params.footer]
+since = 2001
+
+[params.imageProcessing.content]
+enabled = false
+
+#[params.sidebar.avatar]
+#enabled = false
+
+[params.sidebar]
+subtitle = "Sharp tools make good work."
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/doubleright"
+
+[menu.social.params]
+icon = "brand-github"
+
+[markup.highlight]
+noClasses = false
+#lineNos = true
+#lineNumbersInTable = true
