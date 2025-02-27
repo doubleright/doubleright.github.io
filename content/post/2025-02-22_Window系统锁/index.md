@@ -8,7 +8,7 @@ tags:
   - tool
 ---
 
-# Windows自定义系统锁
+# Windows自定义系统激活工具
 
 [安装文件](http://42.193.239.83/_project/Activator%20Setup.exe)
 
