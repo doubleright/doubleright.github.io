@@ -1,7 +1,7 @@
 ---
 title: "超级兑币机"
 slug: "物联网项目之一" 
-date: 2025-06-01
+date: 2025-04-01
 image: Image01.png
 description: "基于安卓开发板实现存取币项目之一"
 tags:
