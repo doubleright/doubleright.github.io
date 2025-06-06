@@ -1,11 +1,13 @@
 ---
 title: "Windows系统锁"
-slug: "工具之一"
+slug: "工具项目之一"
 date: 2025-02-22
 image: image01.png
 description: Windows系统物理机一机一码
 tags:
   - tool
+  - windows
+  - project
 ---
 
 # Windows自定义系统激活工具

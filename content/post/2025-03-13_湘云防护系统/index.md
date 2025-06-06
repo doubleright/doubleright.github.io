@@ -1,11 +1,15 @@
 ---
 title: "湘云防护系统"
-slug: "工具之一"
+slug: "工具项目之一"
 date: 2025-03-13
 image: image01.png
 description: Windows服务器安全工具
 tags:
   - tool
+  - windows
+  - server
+  - security
+  - project
 ---
 
 # 湘云防护系统

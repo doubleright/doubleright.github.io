@@ -6,6 +6,9 @@ image: image01.jpg
 description: 珠江啤酒入库采集
 tags:
   - project
+  - windows
+  - server
+  - android
 ---
 
 # 珠江啤酒入库采集系统

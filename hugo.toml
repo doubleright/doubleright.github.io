@@ -41,14 +41,7 @@ enabled = false
 #enabled = false
 
 [params.sidebar]
-subtitle = """
- 在黑暗之中歌唱海阔天空,
- 在低谷始终也有你的抱拥,
-    人生总会有扑空,
- 就算百般沧桑仍相信星光,
-就算万千阻挡也有新的渴望,
-   为了你我不想再迷惘!
-"""
+subtitle = "Full Stack Dev Ready for Immediate Hire"
 
 [[menu.social]]
 identifier = "github"
