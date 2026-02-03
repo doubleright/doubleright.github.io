@@ -44,7 +44,7 @@ enabled = false
 subtitle = "Full Stack Dev Ready for Immediate Hire"
 
 [[menu.main]]
-name = "Home"
+name = "LiteApp"
 url = "https://raytang.cn/"
 identifier = "home"
 
