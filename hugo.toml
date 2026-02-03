@@ -44,13 +44,12 @@ enabled = false
 subtitle = "Full Stack Dev Ready for Immediate Hire"
 
 [[menu.main]]
-    name = "Home"
-    url = "https://raytang.cn/"
-    identifier = "home"
+name = "Home"
+url = "https://raytang.cn/"
+identifier = "home"
 
 [menu.main.params]
-    icon = "home"
-    newTab = true
+icon = "home"
 
 [[menu.social]]
 identifier = "github"
