@@ -1,4 +1,4 @@
-#baseURL = 'http://42.193.239.83:9000'
+#baseURL = 'http://raytang.cn/'
 languageCode = 'en-us'
 title = "Ray's log"
 theme = 'hugo-theme-stack'
@@ -42,6 +42,15 @@ enabled = false
 
 [params.sidebar]
 subtitle = "Full Stack Dev Ready for Immediate Hire"
+
+[[menu.main]]
+    name = "Home"
+    url = "https://raytang.cn/"
+    identifier = "home"
+
+[menu.main.params]
+    icon = "home"
+    newTab = true
 
 [[menu.social]]
 identifier = "github"

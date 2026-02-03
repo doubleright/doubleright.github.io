@@ -1,7 +1,7 @@
 ---
 title: "轻量视觉应用-标签结构化识别"
 slug: "轻量视觉应用" 
-date: 2025-04-01
+date: 2025-10-01
 image: Image01.gif
 description: "轻量视觉应用框架"
 tags:
